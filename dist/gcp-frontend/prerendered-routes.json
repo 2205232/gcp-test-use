@@ -1,0 +1,14 @@
+{
+  "routes": [
+    "/",
+    "/dashboard",
+    "/FAQ",
+    "/Login",
+    "/NewAuthLogin",
+    "/ResetPassword",
+    "/settings",
+    "/SignIn",
+    "/uploadDoc",
+    "/UserProfile"
+  ]
+}
