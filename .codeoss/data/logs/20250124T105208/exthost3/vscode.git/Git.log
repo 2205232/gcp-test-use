@@ -1,0 +1,42 @@
+2025-01-24 13:04:50.811 [info] [main] Log level: Info
+2025-01-24 13:04:50.811 [info] [main] Validating found git in: "git"
+2025-01-24 13:04:50.811 [info] [main] Using git "2.43.0" from "git"
+2025-01-24 13:04:50.811 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-24 13:04:50.811 [info] > git rev-parse --show-toplevel [18ms]
+2025-01-24 13:04:50.811 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-01-24 13:04:50.811 [info] [Model][openRepository] Opened repository: /home/biswabandita_rout
+2025-01-24 13:04:50.811 [info] > git config --get commit.template [1430ms]
+2025-01-24 13:04:50.811 [info] > git rev-parse --show-toplevel [1432ms]
+2025-01-24 13:04:50.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-01-24 13:04:50.811 [info] > git rev-parse --show-toplevel [6ms]
+2025-01-24 13:04:50.835 [info] > git rev-parse --show-toplevel [24ms]
+2025-01-24 13:04:50.847 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2025-01-24 13:04:50.850 [info] > git rev-parse --show-toplevel [4ms]
+2025-01-24 13:04:50.860 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-24 13:04:50.869 [info] > git rev-parse --show-toplevel [4ms]
+2025-01-24 13:04:50.881 [info] > git rev-parse --show-toplevel [7ms]
+2025-01-24 13:04:50.890 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-24 13:04:50.900 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-24 13:04:50.908 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-24 13:04:50.916 [info] > git status -z -uall [99ms]
+2025-01-24 13:04:50.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-01-24 13:04:50.980 [info] > git rev-parse --show-toplevel [67ms]
+2025-01-24 13:04:50.981 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-24 13:04:50.993 [info] > git config --get commit.template [31ms]
+2025-01-24 13:04:50.994 [info] > git config --local branch.main.vscode-merge-base [14ms]
+2025-01-24 13:04:50.994 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-24 13:04:51.273 [info] > git reflog main --grep-reflog=branch: Created from *. [271ms]
+2025-01-24 13:04:51.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [271ms]
+2025-01-24 13:04:51.310 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [31ms]
+2025-01-24 13:04:51.311 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-01-24 13:04:51.312 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-01-24 13:04:51.326 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2025-01-24 13:04:51.332 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2025-01-24 13:04:51.342 [info] > git diff --name-status -z --diff-filter=ADMR 1d52a57d198e5d1cef2c49abaed1a6ae1779a3a6...refs/remotes/origin/main [4ms]
+2025-01-24 13:04:51.402 [info] > git status -z -uall [100ms]
+2025-01-24 13:04:52.928 [info] > git check-ignore -v -z --stdin [5ms]
+2025-01-24 13:04:56.944 [info] > git check-ignore -v -z --stdin [47ms]
+2025-01-24 13:04:57.447 [info] > git check-ignore -v -z --stdin [7ms]
+2025-01-24 13:04:59.221 [info] > git show --textconv :frontend/src/environments/environment.ts [223ms]
+2025-01-24 13:04:59.223 [info] > git ls-files --stage -- /home/biswabandita_rout/frontend/src/environments/environment.ts [212ms]
+2025-01-24 13:04:59.254 [info] > git cat-file -s a0cae17ff3d9ea9b6367a39719738d1b5fd904d7 [19ms]

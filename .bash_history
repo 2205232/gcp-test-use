@@ -1,28 +1,3 @@
-sudo docker ps
-sudo docker images
-ls -a
-pwd
-cd ..
-ls -a
-df
-ls-a
-ls -a
-pwd
-ls -a
-docker build -t gcp-frontent .
-docker build -t gcp-frontent
-docker build -t gcp-frontent .
-Docker images
-docker images
-docker run -d -p 80:8080 gcp-frontend
-docker run -d -p 80:8080 gcp-frontent
-docker ps
-docker stop d14cc09c2d6d
-docker rm d14cc09c2d6d
-docker run -d -p 8080:80 gcp-frontent
-docker ps
-docker stop aa6efd157a30
-docker rm aa6efd157a30
 docker images
 docker rmi gcp-frontent
 docker ps -a
@@ -287,3 +262,254 @@ cd frontend
 npm run dev
 npm start
 git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git config --global user.email "biswabandita.rout@tcs.com"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/2205232/gcp-test-use.git
+git push -u origin main
+node exampleserver.js
+node apiRoutes.js
+npm run dev
+node app.js
+ls
+cd frontend
+npm start
+ls
+cd frontend
+npm run dev
+npm start
+ls
+cd Backend
+curl -s ifconfig.me
+curl -X GET https://https://35.187.254.40:4000/api
+curl -X GET https://35.187.254.40:4000/api
+curl -X GET https://35.187.254.40:4000
+ls
+cd Backend
+npm run dev
+ls
+cd frontend
+cd frontend
+npm build
+npm run build
+cd Backend
+curl -s ifconfig.me
+curl -s ipconfig.me
+curl -s ifconfig.me
+curl -X POST http://localhost:5000/api -H "Content-Type: application/json" -d '{"query": "what is ondc"}'
+ls
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v1 .
+docker images
+docker run -d -p 8080:80 24fc7b00d698
+docker ps 
+docker stop 6d72b015ff7f
+docker rm 6d72b015ff7f
+cd Backend
+ls
+cd ..
+ls
+docker build asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.1 -f backend_dockerfile .
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.1 -f backend_dockerfile .
+docker images
+docker push b5a31f42be3f
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.1
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.1
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.2 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.2
+cd frontend
+npm run build
+ls
+cd Dockerfile
+npm run build
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend .
+docker images
+docker rmi 0f055ec8cfa5 24fc7b00d698
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v1 .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v1
+cd ..
+ls
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend .
+ls
+ls
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.3 -f backend_dockerfile .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.3
+cd frontend
+ls
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2 .
+docker images
+docker rmi 0f055ec8cfa5
+docker ps
+docker ps -a
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.1 .
+docker images
+npm run build
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.2 .
+docker images
+docker push 801403551d36
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.2
+cd ..
+ls
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.4 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.4
+cd frontend
+ls
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.3 .
+npm run build
+ls
+cd Backend
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.4 .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.4
+npm run build
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.5 .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.5
+cd ..
+ls
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.5 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.5
+docker images
+ls
+cd frontend
+npm run
+ng serve
+npm start
+npm run
+cd frontend
+npm start
+ls
+npm run build
+docker images
+ls
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.6 -f backend_dockerfile .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.6
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.6
+gcloud auth configure-docker
+gcloud auth configure-docker asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.6
+cd frontend
+ls
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.6 .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.6
+cd frontend
+cd Backend
+npm run dev
+cd Backend
+ps -ef | grep 5000
+npm run dev
+npm start
+cd ..
+ls
+npm run build
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.7 .
+ls
+cd frontend
+ls
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.8  .
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.8  .
+ls
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.8  .
+docker images
+cd ..
+ls
+cd ..
+ls
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.7 -f backend_dockerfile .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.7
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/d
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v2.8
+cd frontend
+npm run build
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v3  .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/test-frontend:v3 
+ls
+cd frontend
+cd ..
+cd Backend
+ls
+npm run dev
+cd ..
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.8 -f backend_dockerfile .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.8
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.9 -f backend_dockerfile .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.9
+docker imsges
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v1.9
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2 -f backend_dockerfile .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.1 -f backend_dockerfile .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.1
+gcloud storage buckets get-iam-policy uploadfiles-digisahayak-091220241130
+gcloud storage buckets get-iam-policy [uploadfiles-digisahayak-091220241130]
+gcloud projects add-iam-policy-binding digisahayak-091220241130 --member="serviceAccount:digisahayak-sa@digisahayak-091220241130.iam.gserviceaccount.com" --role="roles/storage.objectAdmin"
+gcloud storage buckets get-iam-policy uploadfiles-digisahayak-091220241130
+gcloud storage buckets add-iam-policy-binding uploadfiles-digisahayak-091220241130 --member="serviceAccount:digisahayak-sa@digisahayak-091220241130.iam.gserviceaccount.com" --role="roles/storage.objectAdmin"
+gcloud storage buckets add-iam-policy-binding gs://uploadfiles-digisahayak-091220241130 --member="serviceAccount:digisahayak-sa@digisahayak-091220241130.iam.gserviceaccount.com" --role="roles/storage.objectAdmin"
+gcloud storage buckets get-iam-policy uploadfiles-digisahayak-091220241130
+gcloud auth application-default login
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.2 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.2
+gcloud auth application-default login
+gcloud iam policy get gs://uploadfiles-digisahayak-091220241130
+ls
+cd frontend 
+npm install @abacritt/angularx-social-login
+cd Backend
+npm install google-auth-library express jsonwebtoken
+gcloud projects add-iam-policy-binding digisahayak-091220241130 --member="serviceAccount:digisahayak-sa@digisahayak-091220241130.iam.gserviceaccount.com" --role="roles/storage.objectAdmin"
+$ gcloud auth login
+gcloud config set account ACCOUNT
+gcloud run services describe my-upload-service --region=us-central1
+gcloud projects get-iam-policy digisahayak-091220241130
+gcloud auth login
+gcloud auth list
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.3 -f backend_dockerfile .
+docker images
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.3
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.3 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.3
+docker images
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.4 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.4
+docker images
+cd Backend
+node test.js
+cd ..
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.5 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.5
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.6 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.6
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.7 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.7
+docker build -t asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.8 -f backend_dockerfile .
+docker push asia-southeast1-docker.pkg.dev/digisahayak-091220241130/digisahayak-dev-repo/backend:v2.8
+git branches
+git branch
+git push

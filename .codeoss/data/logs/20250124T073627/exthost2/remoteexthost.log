@@ -1,0 +1,27 @@
+2025-01-24 07:36:59.578 [info] Extension host with pid 1303 started
+2025-01-24 07:36:59.578 [error] Error: EEXIST: file already exists, open '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock'
+2025-01-24 07:36:59.593 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-01-24 07:36:59.610 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': The lock does not look stale, elapsed: 8756 ms, giving up.
+2025-01-24 07:36:59.627 [error] Error: EEXIST: file already exists, open '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7-1/vscode.lock'
+2025-01-24 07:36:59.628 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-01-24 07:36:59.629 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7-1/vscode.lock': The pid 2017 appears to be gone.
+2025-01-24 07:36:59.629 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7-1/vscode.lock': Deleting a stale lock.
+2025-01-24 07:36:59.650 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7-1/vscode.lock': Lock acquired.
+2025-01-24 07:37:00.190 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-24 07:37:00.194 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-01-24 07:37:00.927 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-24 07:37:01.450 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-24 07:37:01.451 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-24 07:37:02.632 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt,**/build.gradle,**/Dockerfile,**/Containerfile'
+2025-01-24 07:37:06.063 [info] Eager extensions activated
+2025-01-24 07:37:06.073 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-01-24 07:37:06.093 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-01-24 07:37:06.100 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-01-24 07:37:06.101 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-24 07:37:06.104 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-24 07:37:10.367 [warning] [Decorations] CAPPING events from decorations provider vscode.git 487
+2025-01-24 07:37:10.835 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-01-24 07:37:17.701 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-24 07:37:18.463 [warning] [Decorations] CAPPING events from decorations provider vscode.git 489
+2025-01-24 07:37:18.972 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-01-24 07:37:18.972 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

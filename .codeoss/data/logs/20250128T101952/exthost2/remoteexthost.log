@@ -1,0 +1,10 @@
+2025-01-28 10:21:01.022 [info] Extension host with pid 1224 started
+2025-01-28 10:21:01.022 [error] Error: EEXIST: file already exists, open '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock'
+2025-01-28 10:21:01.041 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-01-28 10:21:01.042 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': The lock looks stale, waiting for 2s.
+2025-01-28 10:21:03.043 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': The lock looks stale even after waiting for 2s.
+2025-01-28 10:21:03.044 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Deleting a stale lock.
+2025-01-28 10:21:03.050 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Lock acquired.
+2025-01-28 11:05:21.030 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-01-28 11:05:21.031 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-01-28 11:05:21.032 [info] Extension host with pid 1224 exiting with code 0

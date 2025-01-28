@@ -1,0 +1,9 @@
+[Warn  - 7:00:47 AM] Component Analysis Error: TypeError: Cannot convert undefined or null to object
+[Warn  - 7:00:48 AM] Component Analysis Error: TypeError: Cannot convert undefined or null to object
+[Warn  - 7:00:58 AM] Component Analysis Error: FetchError: request to https://rhda.rhcloud.com/api/v4/analysis failed, reason: Hostname/IP does not match certificate's altnames: Host: rhda.rhcloud.com. is not in the cert's altnames: DNS:*.apps.rosa.appsrep08ue2.bm6e.p3.openshiftapps.com
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+[Warn  - 7:44:43 AM] Component Analysis Error: Error: Command failed: java -DRHDA_TOKEN=599c950c-124f-4630-8418-3694e0b2d5e1 -DRHDA_SOURCE=vscode -DEXHORT_SYFT_PATH=syft -DEXHORT_SKOPEO_PATH=skopeo -DEXHORT_DOCKER_PATH=docker -DEXHORT_PODMAN_PATH=podman -jar /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.fabric8-analytics/dist/../javaApiAdapter/exhort-java-api-adapter-1.0-SNAPSHOT-jar-with-dependencies.jar json nginx:alpine
+Error: LinkageError occurred while loading main class com.redhat.exhort.Main
+	java.lang.UnsupportedClassVersionError: com/redhat/exhort/Main has been compiled by a more recent version of the Java Runtime (class file version 64.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+

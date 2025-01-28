@@ -1,0 +1,30 @@
+2025-01-24 07:36:27.523 [info] 
+
+
+
+
+2025-01-24 07:36:27.523 [info] Extension host agent started.
+2025-01-24 07:36:30.375 [info] [127.0.0.1][7ae68e25][ManagementConnection] New connection established.
+2025-01-24 07:36:30.788 [info] [127.0.0.1][9da5825f][ExtensionHostConnection] New connection established.
+2025-01-24 07:36:32.768 [info] [127.0.0.1][9da5825f][ExtensionHostConnection] <837> Launched Extension Host Process.
+2025-01-24 07:36:39.035 [error] [127.0.0.1][b130c58b][ExtensionHostConnection] Unknown reconnection token (never seen).
+2025-01-24 07:36:40.662 [error] [127.0.0.1][5fed9e38][ManagementConnection] Unknown reconnection token (never seen).
+2025-01-24 07:36:44.311 [info] [127.0.0.1][a9f7e2d2][ManagementConnection] New connection established.
+2025-01-24 07:36:44.747 [info] [127.0.0.1][5cd43192][ExtensionHostConnection] New connection established.
+2025-01-24 07:36:44.774 [info] [127.0.0.1][5cd43192][ExtensionHostConnection] <1303> Launched Extension Host Process.
+2025-01-24 07:36:48.361 [warning] RequestStore#acceptReply was called without receiving a matching request 13
+2025-01-24 07:36:48.362 [warning] RequestStore#acceptReply was called without receiving a matching request 14
+2025-01-24 07:36:48.362 [warning] RequestStore#acceptReply was called without receiving a matching request 15
+2025-01-24 07:36:48.362 [warning] RequestStore#acceptReply was called without receiving a matching request 16
+2025-01-24 07:36:48.362 [warning] RequestStore#acceptReply was called without receiving a matching request 17
+2025-01-24 07:36:48.362 [warning] RequestStore#acceptReply was called without receiving a matching request 18
+2025-01-24 07:36:48.362 [warning] RequestStore#acceptReply was called without receiving a matching request 19
+2025-01-24 07:36:48.362 [warning] RequestStore#acceptReply was called without receiving a matching request 20
+2025-01-24 07:36:48.363 [warning] RequestStore#acceptReply was called without receiving a matching request 21
+2025-01-24 07:36:48.363 [warning] RequestStore#acceptReply was called without receiving a matching request 22
+2025-01-24 07:36:48.366 [warning] RequestStore#acceptReply was called without receiving a matching request 23
+2025-01-24 07:36:48.366 [warning] RequestStore#acceptReply was called without receiving a matching request 24
+2025-01-24 08:04:17.845 [info] [127.0.0.1][7ae68e25][ManagementConnection] The client has reconnected.
+2025-01-24 08:04:24.657 [info] [127.0.0.1][a9f7e2d2][ManagementConnection] The client has reconnected.
+2025-01-24 08:04:25.522 [info] [127.0.0.1][5cd43192][ExtensionHostConnection] The client has reconnected.
+2025-01-24 08:04:26.628 [info] [127.0.0.1][9da5825f][ExtensionHostConnection] The client has reconnected.

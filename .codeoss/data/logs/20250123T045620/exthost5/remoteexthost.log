@@ -1,0 +1,5 @@
+2025-01-23 06:48:36.504 [info] Extension host with pid 6477 started
+2025-01-23 06:48:36.514 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Lock acquired.
+2025-01-23 06:55:34.413 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-01-23 06:55:34.441 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-01-23 06:55:34.443 [info] Extension host with pid 6477 exiting with code 0

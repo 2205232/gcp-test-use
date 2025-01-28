@@ -1,0 +1,24 @@
+import express from 'express';
+import cors from 'cors';
+import cookieParse from 'cookie-parser';
+//import uploadRoutes from './src/routes/fileUploadRoutes.js';
+import apiRoutes from './src/routes/apiRoutes.js'
+
+const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(cors({
+  origin: ['http://localhost:4200','http://35.187.254.40:4000/api','https://46207-cs-7914574848-default.cs-asia-southeast1-seal.cloudshell.dev/dashboard'], // Replace with your frontend's URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'modelid', 'dimension', 'max_results', 'distance'],
+}));
+app.use(cookieParse());
+
+
+//app.use('/api', uploadRoutes);
+app.use('/api',(apiRoutes));
+
+
+
+
+export default app;

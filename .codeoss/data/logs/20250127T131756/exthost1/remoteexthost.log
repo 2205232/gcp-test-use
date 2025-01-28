@@ -1,0 +1,6 @@
+2025-01-27 13:19:14.313 [info] Extension host with pid 1203 started
+2025-01-27 13:19:14.313 [error] Error: EEXIST: file already exists, open '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock'
+2025-01-27 13:19:14.339 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-01-27 13:19:14.343 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': The pid 1181 appears to be gone.
+2025-01-27 13:19:14.344 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Deleting a stale lock.
+2025-01-27 13:19:14.351 [info] Lock '/home/biswabandita_rout/.codeoss/data/User/workspaceStorage/-2aa307c7/vscode.lock': Lock acquired.

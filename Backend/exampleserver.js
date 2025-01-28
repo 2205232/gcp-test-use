@@ -1,27 +1,30 @@
-const express = require('express');
-const axios = require('axios');
-const app = express();
+import axios from 'axios';
 
-app.use(express.json());
+// Function to call the external API
+async function callApi() {
+    const apiUrl = 'https://dgsahayak-dev.gcpwkshpdev.com/search/genie/search';
+    const requestBody = {
+        query: "what is ondc?" // Replace with your query
+    };
 
-app.post('/proxy-api', async (req, res) => {
     try {
-        const apiResponse = await axios.post('https://dgsahayak-dev.gcpwkshpdev.com/search/genie/search', req.body, {
+        console.log('Sending request to API...');
+        
+        const response = await axios.post(apiUrl, requestBody, {
             headers: {
                 'modelid': 'text-embedding-005',
                 'dimension': '768',
                 'max_results': '2',
                 'distance': 'COSINE',
-                'Content-Type': 'application/json',
-            },
+                'Content-Type': 'application/json'
+            }
         });
-        res.json(apiResponse.data);
-    } catch (error) {
-        console.error(error);
-        res.status(error.response?.status || 500).send(error.message);
-    }
-});
 
-app.listen(3000, () => {
-    console.log('Server running on http://localhost:3000');
-});
+        console.log('API Response:', response.data);
+    } catch (error) {
+        console.error('Error calling API:', error.response?.data || error.message);
+    }
+}
+
+// Call the API function
+callApi();

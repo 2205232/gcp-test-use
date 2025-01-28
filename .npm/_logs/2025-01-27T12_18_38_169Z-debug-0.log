@@ -1,0 +1,409 @@
+0 verbose cli /usr/local/nvm/versions/node/v22.13.1/bin/node /usr/local/nvm/versions/node/v22.13.1/bin/npm
+1 info using npm@11.0.0
+2 info using node@v22.13.1
+3 silly config load:file:/usr/local/nvm/versions/node/v22.13.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/biswabandita_rout/Backend/.npmrc
+5 silly config load:file:/home/biswabandita_rout/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v22.13.1/etc/npmrc
+7 verbose title npm install google-auth-library express jsonwebtoken
+8 verbose argv "install" "google-auth-library" "express" "jsonwebtoken"
+9 verbose logfile logs-max:10 dir:/home/biswabandita_rout/.npm/_logs/2025-01-27T12_18_38_169Z-
+10 verbose logfile /home/biswabandita_rout/.npm/_logs/2025-01-27T12_18_38_169Z-debug-0.log
+11 silly logfile start cleaning logs, removing 3 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest express@^4.21.0
+16 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+17 verbose shrinkwrap failed to load node_modules/.package-lock.json missing from node_modules: node_modules/fsevents
+18 http fetch GET 200 https://registry.npmjs.org/express 445ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/express set size:undefined disposed:false
+20 silly fetch manifest google-auth-library@*
+21 silly packumentCache full:https://registry.npmjs.org/google-auth-library cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/google-auth-library 49ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/google-auth-library set size:undefined disposed:false
+24 silly fetch manifest jsonwebtoken@*
+25 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/jsonwebtoken 42ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/jsonwebtoken set size:undefined disposed:false
+28 silly placeDep ROOT express@4.21.2 REPLACE for: backend@1.0.0 want: ^4.21.0
+29 silly placeDep ROOT google-auth-library@9.15.1 REPLACE for: backend@1.0.0 want: *
+30 silly placeDep ROOT jsonwebtoken@9.0.2 OK for: backend@1.0.0 want: *
+31 silly fetch manifest cookie@0.7.1
+32 silly packumentCache full:https://registry.npmjs.org/cookie cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/cookie 47ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/cookie set size:undefined disposed:false
+35 silly fetch manifest path-to-regexp@0.1.12
+36 silly packumentCache full:https://registry.npmjs.org/path-to-regexp cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 44ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/path-to-regexp set size:undefined disposed:false
+39 silly fetch manifest ms@^2.1.1
+40 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/ms 45ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/ms set size:undefined disposed:false
+43 silly fetch manifest jws@^3.2.2
+44 silly packumentCache full:https://registry.npmjs.org/jws cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/jws 41ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/jws set size:undefined disposed:false
+47 silly fetch manifest lodash.once@^4.0.0
+48 silly packumentCache full:https://registry.npmjs.org/lodash.once cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/lodash.once 33ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/lodash.once set size:undefined disposed:false
+51 silly fetch manifest lodash.includes@^4.3.0
+52 silly packumentCache full:https://registry.npmjs.org/lodash.includes cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/lodash.includes 39ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/lodash.includes set size:undefined disposed:false
+55 silly fetch manifest lodash.isnumber@^3.0.3
+56 silly packumentCache full:https://registry.npmjs.org/lodash.isnumber cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/lodash.isnumber 29ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/lodash.isnumber set size:undefined disposed:false
+59 silly fetch manifest lodash.isstring@^4.0.1
+60 silly packumentCache full:https://registry.npmjs.org/lodash.isstring cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/lodash.isstring 64ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/lodash.isstring set size:undefined disposed:false
+63 silly fetch manifest lodash.isboolean@^3.0.3
+64 silly packumentCache full:https://registry.npmjs.org/lodash.isboolean cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/lodash.isboolean 34ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/lodash.isboolean set size:undefined disposed:false
+67 silly fetch manifest lodash.isinteger@^4.0.4
+68 silly packumentCache full:https://registry.npmjs.org/lodash.isinteger cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/lodash.isinteger 34ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/lodash.isinteger set size:undefined disposed:false
+71 silly fetch manifest lodash.isplainobject@^4.0.6
+72 silly packumentCache full:https://registry.npmjs.org/lodash.isplainobject cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/lodash.isplainobject 29ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/lodash.isplainobject set size:undefined disposed:false
+75 silly placeDep ROOT cookie@0.7.1 OK for: express@4.21.2 want: 0.7.1
+76 silly placeDep ROOT path-to-regexp@0.1.12 OK for: express@4.21.2 want: 0.1.12
+77 silly placeDep node_modules/jsonwebtoken jws@3.2.2 OK for: jsonwebtoken@9.0.2 want: ^3.2.2
+78 silly placeDep ROOT lodash.includes@4.3.0 OK for: jsonwebtoken@9.0.2 want: ^4.3.0
+79 silly placeDep ROOT lodash.isboolean@3.0.3 OK for: jsonwebtoken@9.0.2 want: ^3.0.3
+80 silly placeDep ROOT lodash.isinteger@4.0.4 OK for: jsonwebtoken@9.0.2 want: ^4.0.4
+81 silly placeDep ROOT lodash.isnumber@3.0.3 OK for: jsonwebtoken@9.0.2 want: ^3.0.3
+82 silly placeDep ROOT lodash.isplainobject@4.0.6 OK for: jsonwebtoken@9.0.2 want: ^4.0.6
+83 silly placeDep ROOT lodash.isstring@4.0.1 OK for: jsonwebtoken@9.0.2 want: ^4.0.1
+84 silly placeDep ROOT lodash.once@4.1.1 OK for: jsonwebtoken@9.0.2 want: ^4.0.0
+85 silly placeDep node_modules/jsonwebtoken ms@2.1.3 OK for: jsonwebtoken@9.0.2 want: ^2.1.1
+86 silly fetch manifest jwa@^1.4.1
+87 silly packumentCache full:https://registry.npmjs.org/jwa cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/jwa 42ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/jwa set size:undefined disposed:false
+90 silly placeDep node_modules/jsonwebtoken jwa@1.4.1 OK for: jws@3.2.2 want: ^1.4.1
+91 silly reify mark retired [ '/home/biswabandita_rout/Backend/node_modules/cookie' ]
+92 silly reify mark retired [ '/home/biswabandita_rout/Backend/node_modules/express' ]
+93 silly reify mark retired [ '/home/biswabandita_rout/Backend/node_modules/google-auth-library' ]
+94 silly reify mark retired [ '/home/biswabandita_rout/Backend/node_modules/path-to-regexp' ]
+95 silly reify moves {
+95 silly reify   '/home/biswabandita_rout/Backend/node_modules/cookie': '/home/biswabandita_rout/Backend/node_modules/.cookie-C8SI1Fwc',
+95 silly reify   '/home/biswabandita_rout/Backend/node_modules/express': '/home/biswabandita_rout/Backend/node_modules/.express-DtzKjkKb',
+95 silly reify   '/home/biswabandita_rout/Backend/node_modules/google-auth-library': '/home/biswabandita_rout/Backend/node_modules/.google-auth-library-ILix33pA',
+95 silly reify   '/home/biswabandita_rout/Backend/node_modules/path-to-regexp': '/home/biswabandita_rout/Backend/node_modules/.path-to-regexp-UrwkPHM4'
+95 silly reify }
+96 silly audit bulk request {
+96 silly audit   '@colors/colors': [ '1.6.0' ],
+96 silly audit   '@dabh/diagnostics': [ '2.0.3' ],
+96 silly audit   '@google-cloud/bigquery': [ '7.9.1' ],
+96 silly audit   '@google-cloud/common': [ '5.0.2' ],
+96 silly audit   '@google-cloud/paginator': [ '5.0.2' ],
+96 silly audit   '@google-cloud/precise-date': [ '4.0.0' ],
+96 silly audit   '@google-cloud/projectify': [ '4.0.0' ],
+96 silly audit   '@google-cloud/promisify': [ '4.0.0' ],
+96 silly audit   '@google-cloud/storage': [ '7.13.0' ],
+96 silly audit   mime: [ '3.0.0', '1.6.0' ],
+96 silly audit   uuid: [ '8.3.2', '9.0.1' ],
+96 silly audit   '@tootallnate/once': [ '2.0.0' ],
+96 silly audit   '@types/body-parser': [ '1.19.5' ],
+96 silly audit   '@types/caseless': [ '0.12.5' ],
+96 silly audit   '@types/connect': [ '3.4.38' ],
+96 silly audit   '@types/cookie-parser': [ '1.4.7' ],
+96 silly audit   '@types/cors': [ '2.8.17' ],
+96 silly audit   '@types/express': [ '4.17.21' ],
+96 silly audit   '@types/express-serve-static-core': [ '4.19.5' ],
+96 silly audit   '@types/http-errors': [ '2.0.4' ],
+96 silly audit   '@types/mime': [ '1.3.5' ],
+96 silly audit   '@types/multer': [ '1.4.12' ],
+96 silly audit   '@types/node': [ '22.7.0' ],
+96 silly audit   '@types/qs': [ '6.9.16' ],
+96 silly audit   '@types/range-parser': [ '1.2.7' ],
+96 silly audit   '@types/request': [ '2.48.12' ],
+96 silly audit   '@types/send': [ '0.17.4' ],
+96 silly audit   '@types/serve-static': [ '1.15.7' ],
+96 silly audit   '@types/tough-cookie': [ '4.0.5' ],
+96 silly audit   '@types/triple-beam': [ '1.3.5' ],
+96 silly audit   'abort-controller': [ '3.0.0' ],
+96 silly audit   accepts: [ '1.3.8' ],
+96 silly audit   'agent-base': [ '7.1.1', '6.0.2' ],
+96 silly audit   debug: [ '4.3.7', '2.6.9' ],
+96 silly audit   ms: [ '2.1.3', '2.0.0' ],
+96 silly audit   anymatch: [ '3.1.3' ],
+96 silly audit   'append-field': [ '1.0.0' ],
+96 silly audit   'array-flatten': [ '1.1.1' ],
+96 silly audit   arrify: [ '2.0.1' ],
+96 silly audit   async: [ '3.2.6' ],
+96 silly audit   'async-retry': [ '1.3.3' ],
+96 silly audit   asynckit: [ '0.4.0' ],
+96 silly audit   axios: [ '1.7.9' ],
+96 silly audit   'form-data': [ '4.0.1', '2.5.1' ],
+96 silly audit   'balanced-match': [ '1.0.2' ],
+96 silly audit   'base64-js': [ '1.5.1' ],
+96 silly audit   'big.js': [ '6.2.2' ],
+96 silly audit   'bignumber.js': [ '9.1.2' ],
+96 silly audit   'binary-extensions': [ '2.3.0' ],
+96 silly audit   'body-parser': [ '1.20.3' ],
+96 silly audit   'brace-expansion': [ '1.1.11' ],
+96 silly audit   braces: [ '3.0.3' ],
+96 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+96 silly audit   'buffer-from': [ '1.1.2' ],
+96 silly audit   busboy: [ '1.6.0' ],
+96 silly audit   bytes: [ '3.1.2' ],
+96 silly audit   'call-bind': [ '1.0.7' ],
+96 silly audit   chokidar: [ '3.6.0' ],
+96 silly audit   color: [ '3.2.1' ],
+96 silly audit   'color-convert': [ '1.9.3' ],
+96 silly audit   'color-name': [ '1.1.3' ],
+96 silly audit   'color-string': [ '1.9.1' ],
+96 silly audit   colorspace: [ '1.1.4' ],
+96 silly audit   'combined-stream': [ '1.0.8' ],
+96 silly audit   'concat-map': [ '0.0.1' ],
+96 silly audit   'concat-stream': [ '1.6.2' ],
+96 silly audit   'content-disposition': [ '0.5.4' ],
+96 silly audit   'content-type': [ '1.0.5' ],
+96 silly audit   cookie: [ '0.4.1', '0.7.1' ],
+96 silly audit   'cookie-parser': [ '1.4.6' ],
+96 silly audit   'cookie-signature': [ '1.0.6' ],
+96 silly audit   'core-util-is': [ '1.0.3' ],
+96 silly audit   cors: [ '2.8.5' ],
+96 silly audit   'define-data-property': [ '1.1.4' ],
+96 silly audit   'delayed-stream': [ '1.0.0' ],
+96 silly audit   depd: [ '2.0.0' ],
+96 silly audit   destroy: [ '1.2.0' ],
+96 silly audit   dotenv: [ '16.4.5' ],
+96 silly audit   duplexify: [ '4.1.3' ],
+96 silly audit   'readable-stream': [ '3.6.2', '2.3.8' ],
+96 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+96 silly audit   'ee-first': [ '1.1.1' ],
+96 silly audit   enabled: [ '2.0.0' ],
+96 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+96 silly audit   'end-of-stream': [ '1.4.4' ],
+96 silly audit   'es-define-property': [ '1.0.0' ],
+96 silly audit   'es-errors': [ '1.3.0' ],
+96 silly audit   'escape-html': [ '1.0.3' ],
+96 silly audit   etag: [ '1.8.1' ],
+96 silly audit   'event-target-shim': [ '5.0.1' ],
+96 silly audit   extend: [ '3.0.2' ],
+96 silly audit   'fast-xml-parser': [ '4.5.0' ],
+96 silly audit   fecha: [ '4.2.3' ],
+96 silly audit   'fill-range': [ '7.1.1' ],
+96 silly audit   finalhandler: [ '1.3.1' ],
+96 silly audit   'fn.name': [ '1.1.0' ],
+96 silly audit   'follow-redirects': [ '1.15.9' ],
+96 silly audit   forwarded: [ '0.2.0' ],
+96 silly audit   fresh: [ '0.5.2' ],
+96 silly audit   fsevents: [ '2.3.3' ],
+96 silly audit   'function-bind': [ '1.1.2' ],
+96 silly audit   gaxios: [ '6.7.1' ],
+96 silly audit   'gcp-metadata': [ '6.1.0' ],
+96 silly audit   'get-intrinsic': [ '1.2.4' ],
+96 silly audit   'glob-parent': [ '5.1.2' ],
+96 silly audit   gopd: [ '1.0.1' ],
+96 silly audit   gtoken: [ '7.1.0' ],
+96 silly audit   'has-flag': [ '3.0.0' ],
+96 silly audit   'has-property-descriptors': [ '1.0.2' ],
+96 silly audit   'has-proto': [ '1.0.3' ],
+96 silly audit   'has-symbols': [ '1.0.3' ],
+96 silly audit   hasown: [ '2.0.2' ],
+96 silly audit   'html-entities': [ '2.5.2' ],
+96 silly audit   'http-errors': [ '2.0.0' ],
+96 silly audit   'http-proxy-agent': [ '5.0.0' ],
+96 silly audit   'https-proxy-agent': [ '7.0.5', '5.0.1' ],
+96 silly audit   'iconv-lite': [ '0.4.24' ],
+96 silly audit   'ignore-by-default': [ '1.0.1' ],
+96 silly audit   inherits: [ '2.0.4' ],
+96 silly audit   'ipaddr.js': [ '1.9.1' ],
+96 silly audit   is: [ '3.3.0' ],
+96 silly audit   'is-arrayish': [ '0.3.2' ],
+96 silly audit   'is-binary-path': [ '2.1.0' ],
+96 silly audit   'is-extglob': [ '2.1.1' ],
+96 silly audit   'is-glob': [ '4.0.3' ],
+96 silly audit   'is-number': [ '7.0.0' ],
+96 silly audit   'is-stream': [ '2.0.1' ],
+96 silly audit   isarray: [ '1.0.0' ],
+96 silly audit   'json-bigint': [ '1.0.0' ],
+96 silly audit   jwa: [ '2.0.0', '1.4.1' ],
+96 silly audit   jws: [ '4.0.0', '3.2.2' ],
+96 silly audit   kuler: [ '2.0.0' ],
+96 silly audit   logform: [ '2.6.1' ],
+96 silly audit   'media-typer': [ '0.3.0' ],
+96 silly audit   'merge-descriptors': [ '1.0.3' ],
+96 silly audit   methods: [ '1.1.2' ],
+96 silly audit   'mime-db': [ '1.52.0' ],
+96 silly audit   'mime-types': [ '2.1.35' ],
+96 silly audit   minimatch: [ '3.1.2' ],
+96 silly audit   minimist: [ '1.2.8' ],
+96 silly audit   mkdirp: [ '0.5.6' ],
+96 silly audit   multer: [ '1.4.5-lts.1' ],
+96 silly audit   negotiator: [ '0.6.3' ],
+96 silly audit   'node-fetch': [ '2.7.0' ],
+96 silly audit   nodemon: [ '3.1.7' ],
+96 silly audit   'normalize-path': [ '3.0.0' ],
+96 silly audit   'object-assign': [ '4.1.1' ],
+96 silly audit   'object-inspect': [ '1.13.2' ],
+96 silly audit   'on-finished': [ '2.4.1' ],
+96 silly audit   once: [ '1.4.0' ],
+96 silly audit   'one-time': [ '1.0.0' ],
+96 silly audit   'p-limit': [ '3.1.0' ],
+96 silly audit   parseurl: [ '1.3.3' ],
+96 silly audit   picomatch: [ '2.3.1' ],
+96 silly audit   'process-nextick-args': [ '2.0.1' ],
+96 silly audit   'proxy-addr': [ '2.0.7' ],
+96 silly audit   'proxy-from-env': [ '1.1.0' ],
+96 silly audit   'pstree.remy': [ '1.1.8' ],
+96 silly audit   qs: [ '6.13.0' ],
+96 silly audit   'range-parser': [ '1.2.1' ],
+96 silly audit   'raw-body': [ '2.5.2' ],
+96 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+96 silly audit   readdirp: [ '3.6.0' ],
+96 silly audit   retry: [ '0.13.1' ],
+96 silly audit   'retry-request': [ '7.0.2' ],
+96 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+96 silly audit   'safer-buffer': [ '2.1.2' ],
+96 silly audit   semver: [ '7.6.3' ],
+96 silly audit   send: [ '0.19.0' ],
+96 silly audit   'serve-static': [ '1.16.2' ],
+96 silly audit   'set-function-length': [ '1.2.2' ],
+96 silly audit   setprototypeof: [ '1.2.0' ],
+96 silly audit   'side-channel': [ '1.0.6' ],
+96 silly audit   'simple-swizzle': [ '0.2.2' ],
+96 silly audit   'simple-update-notifier': [ '2.0.0' ],
+96 silly audit   'stack-trace': [ '0.0.10' ],
+96 silly audit   statuses: [ '2.0.1' ],
+96 silly audit   'stream-events': [ '1.0.5' ],
+96 silly audit   'stream-shift': [ '1.0.3' ],
+96 silly audit   streamsearch: [ '1.1.0' ],
+96 silly audit   string_decoder: [ '1.1.1' ],
+96 silly audit   strnum: [ '1.0.5' ],
+96 silly audit   stubs: [ '3.0.0' ],
+96 silly audit   'supports-color': [ '5.5.0' ],
+96 silly audit   'teeny-request': [ '9.0.0' ],
+96 silly audit   'text-hex': [ '1.0.0' ],
+96 silly audit   'to-regex-range': [ '5.0.1' ],
+96 silly audit   toidentifier: [ '1.0.1' ],
+96 silly audit   touch: [ '3.1.1' ],
+96 silly audit   tr46: [ '0.0.3' ],
+96 silly audit   'triple-beam': [ '1.4.1' ],
+96 silly audit   'type-is': [ '1.6.18' ],
+96 silly audit   typecript: [ '0.0.1-security' ],
+96 silly audit   typedarray: [ '0.0.6' ],
+96 silly audit   typescript: [ '5.6.2' ],
+96 silly audit   undefsafe: [ '2.0.5' ],
+96 silly audit   'undici-types': [ '6.19.8' ],
+96 silly audit   unpipe: [ '1.0.0' ],
+96 silly audit   'util-deprecate': [ '1.0.2' ],
+96 silly audit   'utils-merge': [ '1.0.1' ],
+96 silly audit   vary: [ '1.1.2' ],
+96 silly audit   'webidl-conversions': [ '3.0.1' ],
+96 silly audit   'whatwg-url': [ '5.0.0' ],
+96 silly audit   winston: [ '3.14.2' ],
+96 silly audit   'winston-transport': [ '4.7.1' ],
+96 silly audit   wrappy: [ '1.0.2' ],
+96 silly audit   xtend: [ '4.0.2' ],
+96 silly audit   'yocto-queue': [ '0.1.0' ],
+96 silly audit   express: [ '4.21.2' ],
+96 silly audit   'google-auth-library': [ '9.15.1' ],
+96 silly audit   jsonwebtoken: [ '9.0.2' ],
+96 silly audit   'path-to-regexp': [ '0.1.12' ],
+96 silly audit   'lodash.includes': [ '4.3.0' ],
+96 silly audit   'lodash.isboolean': [ '3.0.3' ],
+96 silly audit   'lodash.isinteger': [ '4.0.4' ],
+96 silly audit   'lodash.isnumber': [ '3.0.3' ],
+96 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+96 silly audit   'lodash.isstring': [ '4.0.1' ],
+96 silly audit   'lodash.once': [ '4.1.1' ]
+96 silly audit }
+97 verbose reify failed optional dependency /home/biswabandita_rout/Backend/node_modules/fsevents
+98 silly reify mark deleted [ '/home/biswabandita_rout/Backend/node_modules/fsevents' ]
+99 http cache lodash.once@https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz 1ms (cache hit)
+100 http cache lodash.isstring@https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz 0ms (cache hit)
+101 http cache lodash.isplainobject@https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz 0ms (cache hit)
+102 http cache lodash.isnumber@https://registry.npmjs.org/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz 0ms (cache hit)
+103 http cache lodash.isinteger@https://registry.npmjs.org/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz 0ms (cache hit)
+104 http cache lodash.isboolean@https://registry.npmjs.org/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz 0ms (cache hit)
+105 http cache lodash.includes@https://registry.npmjs.org/lodash.includes/-/lodash.includes-4.3.0.tgz 0ms (cache hit)
+106 http cache jsonwebtoken@https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.2.tgz 0ms (cache hit)
+107 http cache path-to-regexp@https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.12.tgz 0ms (cache hit)
+108 http cache google-auth-library@https://registry.npmjs.org/google-auth-library/-/google-auth-library-9.15.1.tgz 0ms (cache hit)
+109 http cache express@https://registry.npmjs.org/express/-/express-4.21.2.tgz 0ms (cache hit)
+110 http cache cookie@https://registry.npmjs.org/cookie/-/cookie-0.7.1.tgz 0ms (cache hit)
+111 http cache jwa@https://registry.npmjs.org/jwa/-/jwa-1.4.1.tgz 0ms (cache hit)
+112 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+113 http cache jws@https://registry.npmjs.org/jws/-/jws-3.2.2.tgz 0ms (cache hit)
+114 silly tarball no local data for lodash.once@https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz. Extracting by manifest.
+115 silly tarball no local data for lodash.isstring@https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz. Extracting by manifest.
+116 silly tarball no local data for lodash.isplainobject@https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz. Extracting by manifest.
+117 silly tarball no local data for lodash.isnumber@https://registry.npmjs.org/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz. Extracting by manifest.
+118 silly tarball no local data for lodash.isinteger@https://registry.npmjs.org/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz. Extracting by manifest.
+119 silly tarball no local data for lodash.isboolean@https://registry.npmjs.org/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz. Extracting by manifest.
+120 silly tarball no local data for lodash.includes@https://registry.npmjs.org/lodash.includes/-/lodash.includes-4.3.0.tgz. Extracting by manifest.
+121 silly tarball no local data for jsonwebtoken@https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.2.tgz. Extracting by manifest.
+122 silly tarball no local data for path-to-regexp@https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.12.tgz. Extracting by manifest.
+123 silly tarball no local data for google-auth-library@https://registry.npmjs.org/google-auth-library/-/google-auth-library-9.15.1.tgz. Extracting by manifest.
+124 silly tarball no local data for express@https://registry.npmjs.org/express/-/express-4.21.2.tgz. Extracting by manifest.
+125 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-0.7.1.tgz. Extracting by manifest.
+126 silly tarball no local data for jwa@https://registry.npmjs.org/jwa/-/jwa-1.4.1.tgz. Extracting by manifest.
+127 silly tarball no local data for jws@https://registry.npmjs.org/jws/-/jws-3.2.2.tgz. Extracting by manifest.
+128 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 233ms
+129 silly audit report {
+129 silly audit report   cookie: [
+129 silly audit report     {
+129 silly audit report       id: 1099846,
+129 silly audit report       url: 'https://github.com/advisories/GHSA-pxg6-pf52-xh8x',
+129 silly audit report       title: 'cookie accepts cookie name, path, and domain with out of bounds characters',
+129 silly audit report       severity: 'low',
+129 silly audit report       vulnerable_versions: '<0.7.0',
+129 silly audit report       cwe: [Array],
+129 silly audit report       cvss: [Object]
+129 silly audit report     }
+129 silly audit report   ]
+129 silly audit report }
+130 silly packumentCache corgi:https://registry.npmjs.org/cookie cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz 229ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz 229ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz 234ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.12.tgz 232ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz 239ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/lodash.isstring/-/lodash.isstring-4.0.1.tgz 238ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/lodash.includes/-/lodash.includes-4.3.0.tgz 237ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/jwa/-/jwa-1.4.1.tgz 235ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz 239ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/jws/-/jws-3.2.2.tgz 234ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.7.1.tgz 240ms (cache miss)
+142 http cache https://registry.npmjs.org/cookie 53ms (cache hit)
+143 silly packumentCache corgi:https://registry.npmjs.org/cookie set size:22175 disposed:false
+144 silly packumentCache corgi:https://registry.npmjs.org/cookie-parser cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.2.tgz 266ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/express/-/express-4.21.2.tgz 287ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/cookie-parser 74ms (cache updated)
+148 silly packumentCache corgi:https://registry.npmjs.org/cookie-parser set size:undefined disposed:false
+149 http fetch GET 200 https://registry.npmjs.org/google-auth-library/-/google-auth-library-9.15.1.tgz 344ms (cache miss)
+150 silly ADD node_modules/lodash.once
+151 silly ADD node_modules/lodash.isstring
+152 silly ADD node_modules/lodash.isplainobject
+153 silly ADD node_modules/lodash.isnumber
+154 silly ADD node_modules/lodash.isinteger
+155 silly ADD node_modules/lodash.isboolean
+156 silly ADD node_modules/lodash.includes
+157 silly ADD node_modules/jsonwebtoken
+158 silly ADD node_modules/jsonwebtoken/node_modules/jwa
+159 silly ADD node_modules/jsonwebtoken/node_modules/ms
+160 silly ADD node_modules/jsonwebtoken/node_modules/jws
+161 silly ADD
+162 silly CHANGE node_modules/path-to-regexp
+163 silly CHANGE node_modules/google-auth-library
+164 silly CHANGE node_modules/express
+165 silly CHANGE node_modules/cookie
+166 verbose cwd /home/biswabandita_rout/Backend
+167 verbose os Linux 6.1.124+
+168 verbose node v22.13.1
+169 verbose npm  v11.0.0
+170 verbose exit 0
+171 info ok

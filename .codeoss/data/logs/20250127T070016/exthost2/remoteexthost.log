@@ -1,0 +1,3 @@
+2025-01-27 07:04:28.976 [info] Extension host with pid 1602 started
+2025-01-27 08:48:26.000 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-01-27 08:48:26.027 [info] Extension host with pid 1602 exiting with code 0

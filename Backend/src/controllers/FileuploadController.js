@@ -1,10 +1,18 @@
 import gcpfileuploadService from '../services/gcpfileuploadService.js';
 
 // Controller for uploading files to GCP
-exports.uploadFiles = async (req, res) => {
+export const uploadFiles = async (req, res) => {
+  console.log(req.files,"testfiles in controler ");
   try {
-    const uploadedFiles = await gcpfileuploadService.uploadFilesToGCP(req.files);
-    res.json({ files: uploadedFiles });
+    if (req.files || req.files.length > 0) {
+      const uploadedFiles = await gcpfileuploadService.uploadFilesToGCP(req.files);
+      res.json({ files: uploadedFiles });
+
+    }else{
+      return res.status(400).json({ message: 'No files uploaded.' });
+      console.log("No file found");
+    }
+    
   } catch (error) {
     console.error('Error in uploadFiles controller:', error);
     res.status(500).send('Failed to upload files');
@@ -12,7 +20,7 @@ exports.uploadFiles = async (req, res) => {
 };
 
 // Controller for processing files
-exports.processFiles = (req, res) => {
+export const processFiles = (req, res) => {
   const fileNames = req.body.fileNames;
   const processedFiles = fileNames.map((name) => ({
     name,
@@ -22,8 +30,9 @@ exports.processFiles = (req, res) => {
 };
 
 export default {
-    processFiles,
     uploadFiles,
+    processFiles,
+    
    // getFileList
     
   
